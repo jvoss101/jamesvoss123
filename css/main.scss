@@ -369,13 +369,14 @@ section {
 
 @keyframes circleAnim {
     from {
-        transform: translate(399px, 1389px);
+        transform: translate(319px, 1443px);
         z-index: 5;
     }
+    to {
+        transform: translate(319px, 1495px);
+    }
 
-        to {
-            transform: translate(399px, 1400px);
-        }
+       
     
 }
 
