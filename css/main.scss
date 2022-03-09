@@ -48,6 +48,8 @@ header {
     }
 }
 
+
+
 .social-header, .hero-design {
     display: none;
 }
@@ -129,8 +131,12 @@ section {
     background: #FF64CB;
 }
 
+.transition2 {
+    color: #f7f7f7;
+}
 .skills-container ul li {
-    background: white;
+    background: #f7f7f7;
+    color: #f7f7f7;
     padding: 2em;
     border-radius: 1em;
     margin-bottom: 1em;
@@ -140,6 +146,7 @@ section {
         display: grid;
         place-content: center;
         margin: 0 auto;
+        ;
 
         &.one {
             width: 80px;
@@ -181,7 +188,7 @@ section {
 }
 
 .desc {
-    background: white;
+    background: #f7f7f7;
     letter-spacing: .05em;
     line-height: 23px;
     border-radius: 1em;
@@ -379,6 +386,7 @@ section {
        
     
 }
+
 
 
 
