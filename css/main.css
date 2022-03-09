@@ -135,8 +135,13 @@ section {
   background: #FF64CB;
 }
 
+.transition2 {
+  color: #f7f7f7;
+}
+
 .skills-container ul li {
-  background: white;
+  background: #f7f7f7;
+  color: #f7f7f7;
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
@@ -192,7 +197,7 @@ section {
 }
 
 .desc {
-  background: white;
+  background: #f7f7f7;
   letter-spacing: .05em;
   line-height: 23px;
   border-radius: 1em;
@@ -368,30 +373,30 @@ section {
 }
 
 .circle {
-  animation: cirlceAnim 1s infinite alternate-reverse;
+  animation: circleAnim 1s infinite alternate-reverse;
 }
 
 @-webkit-keyframes circleAnim {
   from {
-    -webkit-transform: translate(399px, 1389px);
-            transform: translate(399px, 1389px);
+    -webkit-transform: translate(319px, 1443px);
+            transform: translate(319px, 1443px);
     z-index: 5;
   }
   to {
-    -webkit-transform: translate(399px, 1400px);
-            transform: translate(399px, 1400px);
+    -webkit-transform: translate(319px, 1495px);
+            transform: translate(319px, 1495px);
   }
 }
 
 @keyframes circleAnim {
   from {
-    -webkit-transform: translate(399px, 1389px);
-            transform: translate(399px, 1389px);
+    -webkit-transform: translate(319px, 1443px);
+            transform: translate(319px, 1443px);
     z-index: 5;
   }
   to {
-    -webkit-transform: translate(399px, 1400px);
-            transform: translate(399px, 1400px);
+    -webkit-transform: translate(319px, 1495px);
+            transform: translate(319px, 1495px);
   }
 }
 /*# sourceMappingURL=main.css.map */
