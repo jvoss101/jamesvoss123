@@ -168,6 +168,10 @@ section {
     }
 }
 
+.fabio {
+    max-height: 45vh;
+}
+
 .portfolio {
     background: #f7f7f7;
 }
@@ -175,10 +179,6 @@ section {
 .portfolio-container a img {
     border-radius: 1em;
     margin-bottom: 2em;
-}
-
-.fabio {
-    max-height: 45vh;
 }
 
 .about-me {
@@ -190,7 +190,6 @@ section {
     color: #6E06FC;
     display: flex;
     width: 100%;
-    
 }
 
 .desc {
@@ -225,13 +224,17 @@ section {
 }
 
 
-.title1 {
+
+
+
+    .title {
         
-    top: 0;
-    position: fixed;
-    width: 100%;
-    
-}
+        top: 0;
+        position: relative;
+        width: 100%;
+        
+    }
+
 
 @media only screen and (min-width: 800px) {
 
@@ -401,3 +404,7 @@ section {
        
     
 }
+
+
+
+
