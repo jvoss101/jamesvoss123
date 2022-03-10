@@ -190,7 +190,7 @@ section {
     color: #6E06FC;
     display: flex;
     width: 100%;
-    text-align: center;
+    
 }
 
 .desc {
@@ -225,11 +225,10 @@ section {
 }
 
 
-.title {
+.title1 {
         
     top: 0;
-
-    position: relative;
+    position: fixed;
     width: 100%;
     
 }
