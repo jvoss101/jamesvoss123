@@ -1,8 +1,10 @@
+<?php
+
 if (isset($_POST['submit'])) {
-    $name = $_Post['name'];
-    $subject = $_Post['subject'];
-    $mailFrom = $_Post['mail'];
-    $message = $_Post['message'];
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $mailFrom = $_POST['mail'];
+    $message = $_POST['message'];
 
     $mailTo = "James@jamesvoss101.com";
     $headers = "From: ".$mailFrom;
@@ -10,5 +12,5 @@ if (isset($_POST['submit'])) {
 
 
     mail($mailTo, $subject, $txt, $headers);
-    header("Location: contactform.php?mailsend");
+    header("Location: index.html?mailsend");
 }
