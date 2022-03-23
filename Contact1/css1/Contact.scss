@@ -4,6 +4,8 @@ body {
     height: 28vh;
     margin: 0;
     font-family: 'poppings', arial;
+    
+    
 }
 
 ul {
@@ -66,18 +68,39 @@ header {
     display: grid;
     text-align: center;
     padding: 4em;
+    justify-content: center;
 }
 
 .content {
     height: 80vh;
     
-    align-items: center;
-    justify-content: center;
+    
 }
 
 label, input, textarea {
     display: block;
+    margin-top: 1em;
+    
 }
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 3em;
+}
+
+
+.submit {
+    margin-top: 2em;
+    border-radius: 7px;
+    
+}
+
+.submit:hover {
+    cursor: pointer;
+    background: #08F4D8;
+}
+
+
 
 
 
@@ -87,6 +110,13 @@ label, input, textarea {
     .featured, .portfolio {
         text-align: left;
     }
+
+    .hero {
+        justify-content: left;
+    }
+
+
+    
 
     .featured, .portfolio-container {
         display: grid;
@@ -126,7 +156,7 @@ label, input, textarea {
 }
 
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 650px) {
     .hero {
         height: 60vh;
     }
