@@ -68,45 +68,21 @@ header {
     padding: 4em;
 }
 
-
-
-
-.contact-form {
-   display: grid;
-   padding-bottom: 50vh;
-   padding-right: 4em;
-}
-
-.name {
-    padding: 1em;
-}
-
-.mail {
-    padding: 1em;
-}
-
-.subject {
-    padding: 1em;
-}
-
-.message {
-    padding: 3em 1em;
+.content {
+    height: 80vh;
     
+    align-items: center;
+    justify-content: center;
 }
 
-.button {
-    padding: .75em;
-    cursor: pointer;
-    background: #08F4D8;
-    font-weight: bold;
-}
-
-.form {
-    max-width: 500px;
+label, input, textarea {
+    display: block;
 }
 
 
-@media only screen and (min-width: 800px) {
+
+
+@media only screen and (min-width: 750px) {
 
     .featured, .portfolio {
         text-align: left;
@@ -150,7 +126,7 @@ header {
 }
 
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 850px) {
     .hero {
         height: 60vh;
     }

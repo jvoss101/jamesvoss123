@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
     <link rel="stylesheet" href="../Contact1/css1/contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./main.js"></script>
 </head>
 <body>
     <div class="nav-container">
@@ -32,17 +34,31 @@
 
     <div class="hero">
         <div class="content">
-            <main class="form">
-                <p class="title">Contact Me</p>
-                 <form class="contact-form" action="contactform.php" method="post">
-                <input class="name" type="text" name="name" placeholder="Full Name">
-                <input class="mail" type="text" name="mail" placeholder="Your e-mail">
-                <input class="subject" type="text" name="subject" placeholder="subject">
-                <textarea class="message" name="message" placeholder="Message"></textarea>
-                <button class="button" type="submit" name="submit">SEND E-MAIL</button>
-            </form>
-            </main>
+           
+              <h3>Contact Me</h3>
+              <form action="https://formspree.io/james@jamesvoss101.com" method="post">
+                <label>
+                  Email
+                  <input type="email" class="email"/>
+                </label>
+                <label>
+                  Subject
+                  <input type="text" class="subject">
+                </label>
+                <label>
+                Message
+                <textarea class="message"></textarea>
+              </label>
+              <div class="status">
+
+
+              </div>
+              <button type="submit" class="submit">Submit</button>
+              </form>
+                
         </div>
+
+        
            
         <svg xmlns="http://www.w3.org/2000/svg" class="hero-design"  viewBox="0 0 1333 1204">
             <g id="Hero-img" transform="translate(-1828 -504)">
