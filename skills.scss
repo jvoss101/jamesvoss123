@@ -72,60 +72,24 @@ header {
     justify-content: center;
 }
 
-.content {
-    height: 80vh;
-    
-    
+
+
+
+.about-me {
+    background: #6E06FC;
+    height: 100vh;
 }
 
-label, input, textarea {
+
+.text {
+    background: white;
+    color: black;
     display: block;
-    margin-top: 1em;
-    
-}
-
-h3 {
-    font-size: 30px;
-    margin-bottom: 3em;
-}
-
-
-.submit {
-    margin-top: 2em;
-    border-radius: 7px;
-    
-}
-
-.submit:hover {
-    cursor: pointer;
-    background: #08F4D8;
-}
-
-.email, .subject, .message {
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.email {
-    width: 250px;
-    height: 35px;
-}
-
-.subject {
-    height: 40px;
-    width: 250px;
-}
-
-.message {
-    height: 100px;
-    width: 250px;
-}
-
-.submit {
-    width: 65px;
-    height: 30px;
-    background: #08F4D8;
-    font-weight: bold;
+    padding: 1.5em;
+    margin-right: 10em;
+    margin-top: 10em;
+    float: left;
+    border-radius: 15px;
 }
 
 
@@ -254,4 +218,3 @@ h3 {
         max-width: 500px;
     }
 }
-
